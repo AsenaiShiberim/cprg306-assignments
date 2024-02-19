@@ -22,6 +22,11 @@ export default function Page() {
                 <Link href="week-5" className="block mb-4">Week 5 Assignments</Link>
                 </li>
               </ul>
+              <ul>
+                <li>
+                <Link href="week-6" className="block mb-4">Week 6 Assignments</Link>
+                </li>
+              </ul>
             </div>
         </li>
       </ul>
