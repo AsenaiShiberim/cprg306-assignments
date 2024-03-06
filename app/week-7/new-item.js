@@ -29,7 +29,8 @@ export default function NewItem({onAddItem}) {
 return(
     <div className="flex justify-center w-full text-center  flex-col items-start" >
         <h1></h1>
-        <form onSubmit={handleSubmit} className=" m-4 border-transparent p-2 rounded-1g focus:border-transparent focus:ring-0 text-black max-w-sm w-full">
+        <form onSubmit={handleSubmit} className=" m-4 border-transparent p-2 rounded-1g focus:border-transparent 
+        focus:ring-0 text-black max-w-sm w-full">
         <label className="text-black p-6">
             
             <input type="text"
@@ -66,4 +67,4 @@ return(
         </form>
     </div>
 )
-}                                                                                                                                                        
+}                                                                                                                                                     
